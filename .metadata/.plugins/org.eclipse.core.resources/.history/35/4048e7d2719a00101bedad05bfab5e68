@@ -1,0 +1,85 @@
+package ejercicio4.java;
+import java.util.*;
+import java.util.concurrent.*;
+
+interface Tarea {
+    void ejecutar();
+}
+
+public class GestorTareasAnimado {
+
+    public static final String RESET = "\u001B[0m";
+    public static final String VERDE = "\u001B[32m";
+    public static final String AMARILLO = "\u001B[33m";
+    public static final String ROJO = "\u001B[31m";
+
+    static Scanner sc = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        ConcurrentHashMap<String, Integer> contador = new ConcurrentHashMap<>();
+        List<Tarea> tareas = Collections.synchronizedList(new ArrayList<>());
+
+        boolean running = true;
+        while (running) {
+            System.out.println("\n📋 Menú Gestor de Tareas:");
+            System.out.println("1. Agregar tarea");
+            System.out.println("2. Ejecutar todas las tareas");
+            System.out.println("3. Mostrar tareas importantes");
+            System.out.println("4. Salir");
+            System.out.print("Opción: ");
+            String opcion = sc.nextLine();
+
+            switch (opcion) {
+                case "1":
+                    System.out.print("Nombre de la tarea: ");
+                    String nombre = sc.nextLine();
+                    System.out.print("Prioridad (1-5): ");
+                    int prioridad = Integer.parseInt(sc.nextLine());
+                    tareas.add(() -> ejecutarTareaAnimada(nombre, prioridad, contador));
+                    System.out.println(VERDE + "✅ Tarea agregada!" + RESET);
+                    break;
+
+                case "2":
+                    List<Thread> hilos = new ArrayList<>();
+                    for (Tarea t : tareas) {
+                        Thread hilo = new Thread(t::ejecutar);
+                        hilos.add(hilo);
+                        hilo.start();
+                    }
+                    hilos.forEach(h -> {
+                        try { h.join(); } catch (InterruptedException e) { e.printStackTrace(); }
+                    });
+                    tareas.clear(); // Vacía la lista después de ejecutar
+                    break;
+
+                case "3":
+                    System.out.println("\n📌 Tareas importantes (prioridad >= 3):");
+                    contador.entrySet().stream()
+                            .filter(e -> e.getValue() >= 3)
+                            .forEach(e -> System.out.println(AMARILLO + e.getKey() + " -> veces ejecutadas: " + e.getValue() + RESET));
+                    break;
+
+                case "4":
+                    running = false;
+                    break;
+
+                default:
+                    System.out.println(ROJO + "⚠ Opción no válida!" + RESET);
+            }
+        }
+
+        System.out.println("🎉 Programa finalizado, sigma!");
+    }
+
+    static void ejecutarTareaAnimada(String nombre, int prioridad, ConcurrentHashMap<String, Integer> contador) {
+        System.out.println("Iniciando: " + nombre + " (prioridad " + prioridad + ")");
+        int total = 20;
+        for (int i = 1; i <= total; i++) {
+            try { Thread.sleep(150); } catch (InterruptedException e) { e.printStackTrace(); }
+            String barra = VERDE + "=".repeat(i) + RESET + "-".repeat(total - i);
+            System.out.print("\r" + nombre + ": [" + barra + "]");
+        }
+        contador.merge(nombre, prioridad, Integer::sum);
+        System.out.println(" " + ROJO + "✔" + RESET);
+    }
+}
