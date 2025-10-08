@@ -1,0 +1,37 @@
+/*
+ * Descripción: Programa que dice si un número es negativo o positivo
+ * Autor: Rubén Rivas
+ * Fecha: 03/10/25
+ */
+package numeroPositivoNegativo;
+
+import java.util.Scanner;
+
+public class NumeroPositivoNegativo {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		int num1;
+		System.out.print("Dime un número positvo o negativo: ");
+		num1 = sc.nextInt();
+		
+		if (num1 > 0) {			// El número es positivo
+			System.out.println("Tu número es positivo");	
+			if (num1 > 50) {
+				System.out.println("Tu número es mayor de cincuenta");
+			}
+			}
+		else if (num1 < 0) {	// No es positivo pero puede ser cero o negativo
+			System.out.println("Tu número es negativo");
+		}
+		else {
+            System.out.println("Tu número es cero");
+		
+		
+
+	}
+
+	}
+}
