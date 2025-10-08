@@ -1,0 +1,27 @@
+package estructuraSi;
+
+import java.util.Scanner;
+
+public class DiaSemana {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		enum DiasSemana{
+			LUNES, MARTES, MIERCOLES, JUEVES, VIERNES;
+		}
+		
+		String diaSemana;
+		System.out.print ("Dime un dia de la semana: ");
+		diaSemana = sc.nextLine();
+		
+		
+		
+		if (diaSemana == "JUEVES") {
+			System.out.println("Correcto es jueves");
+		}
+		
+
+	}
+
+}

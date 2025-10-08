@@ -1,0 +1,26 @@
+package estructuraSi;
+
+import java.util.Scanner;
+
+public class Notas {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.print("Dime una nota: ");
+		int nota = sc.nextInt();
+		
+		if (nota < 0 || nota > 10) {
+			System.out.println("Tu nota no es válida");
+
+		}
+		else if (nota >= 5) {
+			System.out.println("Enhorabuena estas aprobado");
+		}
+			else {
+				System.out.println("Estas suspenso");
+		}
+		
+	}
+
+}

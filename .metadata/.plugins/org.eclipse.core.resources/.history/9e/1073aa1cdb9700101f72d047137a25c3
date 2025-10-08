@@ -1,0 +1,17 @@
+/*
+ * Descripción: ejemplos de tipos de variables
+ * Autor: Rubén
+ * Fecha: 22/09/25
+ */
+package tiposVariables;
+
+public class EjemplosTipos {
+
+	public static void main(String[] args) {
+		int numAlumnos; // Declaramos la variable numAlumnos
+		numAlumnos = 0;
+		system.out.print(numAlumnos);
+
+	}
+
+}

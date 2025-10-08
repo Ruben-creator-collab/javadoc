@@ -1,0 +1,53 @@
+package ejercicio4.java;
+
+import java.util.Scanner;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.print("Dime tu nombre: ");
+		String nombre = sc.nextLine();
+		
+		System.out.print("Dime tus apellidos: ");
+		String apellidos = sc.nextLine();
+		sc.nextLine();
+		
+		System.out.print("Dime tu primer importe: ");
+		int importe1 = sc.nextInt();
+		
+		System.out.print("Dime tu segundo importe: ");
+		int importe2 = sc.nextInt();
+		
+		System.out.print("Dime tu tercer importe: ");
+		int importe3 = sc.nextInt();
+		
+		System.out.print("Dime tu cuarto importe: ");
+		int importe4 = sc.nextInt();
+		
+		double sumaImportes = (importe1 + importe2 + importe3 + importe4);
+		double mediaImportes = (sumaImportes / 4);
+		
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Apellidos: " + apellidos);
+		System.out.println("Importe Gastado1: " + importe1);
+		System.out.println("Importe Gastado2: " + importe2);
+		System.out.println("Importe Gastado3: " + importe3);
+		System.out.println("Importe Gastado4: " + importe4);
+		
+		System.out.println("Importe medio: " + mediaImportes);
+		 
+		if (mediaImportes >= 300) {
+			System.out.println("Sus compras han alcanzado más de 300 euros este mes, tiene un vale de descuento de 50 euros.");
+		}
+		else { 
+			System.out.println("Lo sentimos pero sus compras no han alcanzado los 300 euros este mes, no dispone de descuento.");
+		}
+		
+		
+		
+		
+	}
+
+}

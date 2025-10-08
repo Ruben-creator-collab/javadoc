@@ -1,0 +1,28 @@
+package ejercicio2.java;
+
+import java.util.Scanner;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		Scanner datos = new Scanner (System.in);
+		
+		System.out.println("Conversor de euros a pesetas");
+		System.out.println("----------------------------");
+		
+		double euros;
+		System.out.print("Dime cuantos euros quieres pasar a pesetas: ");
+		euros = datos.nextDouble();
+		
+		double pesetas;
+		pesetas = euros * 166.386;
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

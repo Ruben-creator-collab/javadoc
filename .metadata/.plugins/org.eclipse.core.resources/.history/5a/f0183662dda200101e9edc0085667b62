@@ -1,0 +1,42 @@
+/*
+ * Descripción: Programa el cuál calcule la calificación de un examen a partir de las preguntas acertadas, falladas y no contestadas
+ */
+package ejercicioPropuestoExamen.java;
+
+import java.util.Scanner;
+
+public class EjercicioPropuestoExamen {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.print("Dime el primer número entero: ");
+		int num1 = sc.nextInt();
+		
+		System.out.print("Dime el segundo número entero: ");
+		int num2 = sc.nextInt();
+		
+		System.out.print("Dime el número de preguntas acertadas: ");
+		int preguntasAcertadas = sc.nextInt();
+		
+		System.out.print("Dime el número de preguntas falladas: ");
+		int preguntasFalladas = sc.nextInt();
+		
+		double datosAciertos = (preguntasAcertadas / 0.5);
+		double datosFallados = (preguntasFalladas * 0.25);
+		
+		double notaFinal = (datosAciertos + datosFallados);
+		
+		
+		
+		System.out.println(notaFinal);  
+
+		
+		
+		
+		
+
+	}
+
+}
