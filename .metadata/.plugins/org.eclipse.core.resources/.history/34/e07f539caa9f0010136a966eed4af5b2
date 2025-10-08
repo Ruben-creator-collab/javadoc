@@ -1,0 +1,31 @@
+package estructuraSi;
+
+import java.util.Scanner;
+
+public class DiaSemana {
+
+    enum DiasSemana {
+        LUNES, MARTES, MIERCOLES, JUEVES, VIERNES;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Dime un día de la semana: ");
+        String entrada = sc.nextLine().toUpperCase(); // lo paso a mayúsculas para que coincida
+
+        try {
+            // Convertimos el String a Enum
+            DiasSemana dia = DiasSemana.valueOf(entrada);
+
+            if (dia == DiasSemana.JUEVES) {
+                System.out.println("Correcto, es jueves.");
+            } else {
+                System.out.println("No es jueves, es " + dia);
+            }
+
+        } catch (IllegalArgumentException e) {
+            System.out.println("Ese día no existe en mi enum 😅");
+        }
+    }
+}

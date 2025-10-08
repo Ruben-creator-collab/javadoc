@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 2025/09/20-00:56:38.595 5efc Creating DB C:\Users\eagle\OneDrive\Documentos\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts since it was missing.
 2025/09/20-00:56:38.617 5efc Reusing MANIFEST C:\Users\eagle\OneDrive\Documentos\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts/MANIFEST-000001
+=======
+2025/09/19-20:14:00.083 f20 Creating DB C:\Users\DAW1\Documents\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts since it was missing.
+2025/09/19-20:14:00.099 f20 Reusing MANIFEST C:\Users\DAW1\Documents\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts/MANIFEST-000001
+>>>>>>> 7f3c768e703eee54e825c6b1bb446ca75d4535e4

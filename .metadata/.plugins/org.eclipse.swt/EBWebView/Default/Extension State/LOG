@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2025/10/09-00:05:06.465 813c Reusing MANIFEST C:\Users\eagle\OneDrive\Documentos\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/MANIFEST-000001
 2025/10/09-00:05:06.466 813c Recovering log #3
 2025/10/09-00:05:06.467 813c Reusing old log C:\Users\eagle\OneDrive\Documentos\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/000003.log 
+=======
+2025/10/07-20:15:41.441 4488 Reusing MANIFEST C:\Users\DAW1\Documents\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/MANIFEST-000001
+2025/10/07-20:15:41.443 4488 Recovering log #3
+2025/10/07-20:15:41.444 4488 Reusing old log C:\Users\DAW1\Documents\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/000003.log 
+>>>>>>> 7f3c768e703eee54e825c6b1bb446ca75d4535e4

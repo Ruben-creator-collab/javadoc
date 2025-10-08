@@ -1,0 +1,32 @@
+package ejercicio3.java;
+
+import java.util.Scanner;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		Scanner datos = new Scanner (System.in);
+		
+		int num1;
+		System.out.print("Dime el primer número entero: ");
+		num1 = datos.nextInt();
+		
+		int num2;
+		System.out.print("Dime el segundo número entero: ");
+		num2 = datos.nextInt();
+		
+		int num3;
+		num3 = num2;
+		
+		num1 = num3;
+		num2 = num1;
+		
+		System.out.println("Estos son tus números intercambiados, el primer número: " + num1 + " y el segundo número " + num2);
+		
+		
+		
+		
+		
+	}
+
+}

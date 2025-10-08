@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+<<<<<<< HEAD
     <libraryInfo home="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre" version="21.0.8"/>
     <libraryInfo home="C:\Program Files\Java\jre1.8.0_192" version="1.8.0_192">
         <bootpath>
@@ -41,6 +42,29 @@
         </endorsedDirs>
     </libraryInfo>
     <libraryInfo home="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412" version="21.0.8">
+=======
+    <libraryInfo home="C:\Program Files\Java\jre-1.8" version="1.8.0_401">
+        <bootpath>
+            <entry path="C:\Program Files\Java\jre-1.8\lib\resources.jar"/>
+            <entry path="C:\Program Files\Java\jre-1.8\lib\rt.jar"/>
+            <entry path="C:\Program Files\Java\jre-1.8\lib\jsse.jar"/>
+            <entry path="C:\Program Files\Java\jre-1.8\lib\jce.jar"/>
+            <entry path="C:\Program Files\Java\jre-1.8\lib\charsets.jar"/>
+            <entry path="C:\Program Files\Java\jre-1.8\lib\jfr.jar"/>
+            <entry path="C:\Program Files\Java\jre-1.8\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files\Java\jre-1.8\lib\ext"/>
+            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files\Java\jre-1.8\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\Program Files\Java\jdk-25" version="25"/>
+    <libraryInfo home="C:\Program Files\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre" version="21.0.8"/>
+    <libraryInfo home="C:\Program Files\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412" version="21.0.8">
+>>>>>>> 7f3c768e703eee54e825c6b1bb446ca75d4535e4
         <bootpath>
             <entry path="null"/>
         </bootpath>

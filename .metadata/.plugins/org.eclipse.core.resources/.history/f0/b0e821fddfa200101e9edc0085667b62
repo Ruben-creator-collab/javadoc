@@ -1,0 +1,52 @@
+/*
+ * Descripción: Programa el cuál calcule la calificación de un examen a partir de las preguntas acertadas, falladas y no contestadas
+ */
+package ejercicioPropuestoExamen.java;
+
+import java.util.Scanner;
+
+public class EjercicioPropuestoExamen {
+
+    Scanner sc = new Scanner(System.in);
+    
+    final int TOTAL_PREGUNTAS = 20;
+    
+    System.out.print("Introduce el número de preguntas acertadas: ");
+    int aciertos = sc.nextInt();
+    
+    System.out.print("Introduce el número de preguntas falladas: ");
+    int fallos = sc.nextInt();
+    
+    // Verificar si los datos son válidos
+    if (aciertos + fallos > TOTAL_PREGUNTAS || aciertos < 0 || fallos < 0) {
+        System.out.println("Datos erróneos");
+    } else {
+        // Calcular nota numérica sobre 10
+        double nota = ((aciertos - (fallos * 0.5)) / TOTAL_PREGUNTAS) * 10;
+        
+        // Si la nota es negativa, ponerla a 0
+        if (nota < 0) {
+            nota = 0;
+        }
+        
+        // Determinar la calificación cualitativa
+        String calificacion;
+        if (nota < 5) {
+            calificacion = "Insuficiente";
+        } else if (nota < 6) {
+            calificacion = "Suficiente";
+        } else if (nota < 7) {
+            calificacion = "Bien";
+        } else if (nota < 9) {
+            calificacion = "Notable";
+        } else {
+            calificacion = "Sobresaliente";
+        }
+        
+        System.out.printf("Nota numérica: %.2f%n", nota);
+        System.out.println("Calificación: " + calificacion);
+    }
+    
+
+}
+}

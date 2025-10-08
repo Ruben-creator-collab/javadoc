@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2025/10/09-00:05:06.436 42c4 Reusing MANIFEST C:\Users\eagle\OneDrive\Documentos\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
 2025/10/09-00:05:06.451 42c4 Recovering log #3
 2025/10/09-00:05:06.458 42c4 Reusing old log C:\Users\eagle\OneDrive\Documentos\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/000003.log 
+=======
+2025/10/07-20:15:41.397 3d0c Reusing MANIFEST C:\Users\DAW1\Documents\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/10/07-20:15:41.403 3d0c Recovering log #3
+2025/10/07-20:15:41.405 3d0c Reusing old log C:\Users\DAW1\Documents\javadoc\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/000003.log 
+>>>>>>> 7f3c768e703eee54e825c6b1bb446ca75d4535e4
