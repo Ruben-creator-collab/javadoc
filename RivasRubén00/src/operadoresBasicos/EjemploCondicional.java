@@ -26,10 +26,10 @@ public class EjemploCondicional {
 		minusculas = nombre.toLowerCase();
 		System.out.println("Este es tu nombre en minusculas: " + minusculas);
 		
-		boolean esPepe;ç
+		boolean esPepe;
 		nombre = nombre.toLowerCase();
 		esPepe = nombre.equals("pepe");
-		System.out.prinln(esPepe);
+		System.out.println(esPepe);
 		
 /*		
 		int edad;

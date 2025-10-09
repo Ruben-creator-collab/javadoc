@@ -34,20 +34,12 @@ public class Ejercicio2 {
 		
 		if (experiencia > 5 || proyectos > 5) {
 				System.out.println("Tendrá un salario de 30000 euros");
-		} else {
+		} else if (experiencia < 5 || proyectos < 5) {
 				System.out.println("Tendrá un salario de 25000 euros");
-		} 
-				
-			
-			
-			
+		} else {
+				System.out.println("Lo sentimos pero no cumple nuestro perfil.");
 		}
-		
-		
-		
-		
-		
-		
+		}
 	}
 
 }
