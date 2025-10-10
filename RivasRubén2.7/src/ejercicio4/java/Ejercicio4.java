@@ -1,3 +1,8 @@
+/*
+ * Descripción: Un programa de java el cuál pide notas medias y las redondea
+ * Autor: Rubén Rivas
+ * Fecha: 10/10/25
+ */
 package ejercicio4.java;
 
 import java.util.Scanner;

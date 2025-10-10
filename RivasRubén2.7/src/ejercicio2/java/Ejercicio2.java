@@ -1,3 +1,8 @@
+/*
+ * Descripción: Un programa de java el cuál pide datos y dice si cumple o no cumple los requisitos
+ * Autor: Rubén Rivas
+ * Fecha: 10/10/25
+ */
 package ejercicio2.java;
 
 import java.util.Scanner;

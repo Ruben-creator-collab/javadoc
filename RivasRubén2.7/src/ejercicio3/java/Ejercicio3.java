@@ -1,3 +1,8 @@
+/*
+ * Descripción: Un programa de java el cuál pide una nota y la califíca
+ * Autor: Rubén Rivas
+ * Fecha: 10/10/25
+ */
 package ejercicio3.java;
 
 import java.util.Scanner;

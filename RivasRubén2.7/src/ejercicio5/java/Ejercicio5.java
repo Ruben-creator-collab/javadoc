@@ -1,3 +1,8 @@
+/*
+ * Descripción: Un programa de java el cuál pide valores y hace la operación que el usuario indique
+ * Autor: Rubén Rivas
+ * Fecha: 10/10/25
+ */
 package ejercicio5.java;
 
 import java.util.Scanner;
