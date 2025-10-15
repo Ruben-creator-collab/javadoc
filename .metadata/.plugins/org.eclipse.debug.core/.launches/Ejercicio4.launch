@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<<<<<<< HEAD
-        <listEntry value="/RivasRubén1.2/src/ejercicio4/java/Ejercicio4.java"/>
-=======
-        <listEntry value="/RivasRubén1.1/src/ejercicio4/java/Ejercicio4.java"/>
->>>>>>> 7f3c768e703eee54e825c6b1bb446ca75d4535e4
+        <listEntry value="/RivasRubén2.8/src/ejercicio4/java/Ejercicio4.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -13,9 +9,5 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="ejercicio4.java.Ejercicio4"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
-<<<<<<< HEAD
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RivasRubén1.2"/>
-=======
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RivasRubén1.1"/>
->>>>>>> 7f3c768e703eee54e825c6b1bb446ca75d4535e4
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RivasRubén2.8"/>
 </launchConfiguration>
