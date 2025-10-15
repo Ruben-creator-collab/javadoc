@@ -12,4 +12,4 @@ Este repositorio contiene todos mis ejercicios y prácticas de **Java**, generad
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/Ruben-creator-collab/Programacion-tocha.git
+   git clone https://github.com/Ruben-creator-collab/javadoc.git
