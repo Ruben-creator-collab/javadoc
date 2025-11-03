@@ -4,9 +4,13 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="i"/>
+			<item value="contador"/>
 			<item value="int"/>
 		</list>
 		<list key="replacehistory">
+			<item value="asignatura"/>
+			<item value="alumnos"/>
 			<item value="double"/>
 		</list>
 	</section>
