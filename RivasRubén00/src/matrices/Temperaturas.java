@@ -15,8 +15,10 @@ public class Temperaturas {
 		int [][] temperatura; // Declaracion de un array bidimensional
 		temperatura = new int[TOTAL_MESES][TOTAL_DIAS];
 		
+		String [] textoMes;
+		textoMes = new String [TOTAL_MESES];
+		
 		int diaMasCalor = 0, tempMasAlta = 0, diaTemp10;
-
 		
 		for (int mes = 0; mes < temperatura.length; mes++) {		// Inicialización
 			for (int dia = 0; dia < temperatura[mes].length; dia++) {
