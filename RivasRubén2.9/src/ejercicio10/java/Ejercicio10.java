@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que lee notas y dice si hay alguna con un 10 o no
+ * Autor: Rubén Rivas
+ * Fecha: 20/10/25
+ */
 package ejercicio10.java;
 
 import java.util.Scanner;

@@ -1,5 +1,5 @@
 /*
- * Descripción: 
+ * Descripción: Pide 20 numeros los almacena y suma por separado valores negativos y postivos
  * Autor: Rubén Rivas Flores
  * Fecha: 23/10/25
  */

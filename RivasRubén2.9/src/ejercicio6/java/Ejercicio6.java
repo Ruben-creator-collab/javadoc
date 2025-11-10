@@ -1,7 +1,7 @@
 /*
  * Descripción: programa que lee 100 números y dice si ha leído algún negativo o no
  * Autor: Rubén Rivas
- * Fecha: 27/10/25
+ * Fecha: 20/10/25
  */
 package ejercicio6.java;
 

@@ -1,5 +1,5 @@
 /*
- * Descripción: 
+ * Descripción: crea una array con 100 numeros aleatorios y muestra cuantos son iguales o superiores a R
  * Autor: Rubén Rivas Flores
  * Fecha: 23/10/25
  */

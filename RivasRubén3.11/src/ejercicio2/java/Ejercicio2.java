@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que hace las tablas de multiplicar del 1 al 10
+ * Autor: Rubén Rivas
+ * Fecha: 30/10/25
+ */
 package ejercicio2.java;
 
 public class Ejercicio2 {

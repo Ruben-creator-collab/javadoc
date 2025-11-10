@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que muestra los numeros pares entre el 1 y el 200 sumando de 1 en 1
+ * Autor: Rubén Rivas
+ * Fecha: 20/10/25
+ */
 package ejercicio3.java;
 
 public class Ejercicio3 {

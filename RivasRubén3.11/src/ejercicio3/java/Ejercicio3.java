@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que crea una matriz de NxM y dice cuantos valores son mayor, menor, igual que cero
+ * Autor: Rubén Rivas
+ * Fecha: 30/10/25
+ */
 package ejercicio3.java;
 
 import java.util.Scanner;

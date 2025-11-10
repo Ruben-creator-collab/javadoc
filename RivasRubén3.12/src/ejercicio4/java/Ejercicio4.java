@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que guarda las vocales de una frase
+ * Autor: Rubén Rivas
+ * Fecha: 10/11/25
+ */
 package ejercicio4.java;
 
 import java.util.Scanner;

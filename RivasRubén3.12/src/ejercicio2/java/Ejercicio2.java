@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que dice si dos textos son iguales o no
+ * Autor: Rubén Rivas
+ * Fecha: 10/11/25
+ */
 package ejercicio2.java;
 
 import java.util.Scanner;

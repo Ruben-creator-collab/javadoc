@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que junta tu nombre y tus apellidos 
+ * Autor: Rubén Rivas
+ * Fecha: 10/11/25
+ */
 package ejercicio3.java;
 
 import java.util.Scanner;

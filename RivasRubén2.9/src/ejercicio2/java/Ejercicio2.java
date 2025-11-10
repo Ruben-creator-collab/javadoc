@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que muestra los numeros pares entre 1 y 200
+ * Autor: Rubén Rivas
+ * Fecha: 20/10/25
+ */
 package ejercicio2.java;
 
 public class Ejercicio2 {

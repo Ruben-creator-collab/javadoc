@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que te dice las distintas palabras de una frase
+ * Autor: Rubén Rivas
+ * Fecha: 10/11/25
+ */
 package ejercicio1.java;
 
 import java.util.Scanner;

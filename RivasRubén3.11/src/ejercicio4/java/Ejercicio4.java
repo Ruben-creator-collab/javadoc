@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que diga las notas de 4 alumnos, la nota minima, maxima y media de cada uno en 5 asignaturas
+ * Autor: Rubén Rivas
+ * Fecha: 30/10/25
+ */
 package ejercicio4.java;
 
 import java.util.Scanner;

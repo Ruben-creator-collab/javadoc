@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que suma pares e impares entre 100 a 200
+ * Autor: Rubén Rivas
+ * Fecha: 20/10/25
+ */
 package ejercicio11.java;
 
 public class Ejercicio11 {

@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que registra sueldos de hombres y mujeres y hace la media de cada género
+ * Autor: Rubén Rivas
+ * Fecha: 30/10/25
+ */
 package ejercicio5.java;
 
 import java.util.Scanner;

@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que cuenta del 1 al 20
+ * Autor: Rubén Rivas
+ * Fecha: 20/10/25
+ */
 package ejercicio1.java;
 
 public class Ejercicio1 {

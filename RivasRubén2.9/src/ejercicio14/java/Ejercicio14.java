@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que añade billetes a una cantidad de euros del usuario
+ * Autor: Rubén Rivas
+ * Fecha: 20/10/25
+ */
 package ejercicio14.java;
 
 import java.util.Scanner;

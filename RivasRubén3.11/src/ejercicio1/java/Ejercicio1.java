@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que almacena en una matriz 5x5 los numeros del 1 al 25
+ * Autor: Rubén Rivas
+ * Fecha: 30/10/25
+ */
 package ejercicio1.java;
 
 public class Ejercicio1 {

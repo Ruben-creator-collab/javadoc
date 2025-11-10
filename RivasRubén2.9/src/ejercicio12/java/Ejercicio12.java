@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que calcula el valor de a elevado a b
+ * Autor: Rubén Rivas
+ * Fecha: 20/10/25
+ */
 package ejercicio12.java;
 
 import java.util.Scanner;

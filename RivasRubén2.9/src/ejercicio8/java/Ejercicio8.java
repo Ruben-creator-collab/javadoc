@@ -1,7 +1,7 @@
 /*
  * Descripción: programa que lee números no nulos y dice cuantos positivos y si hay algún negativo
  * Autor: Rubén Rivas
- * Fecha: 27/10/25
+ * Fecha: 20/10/25
  */
 package ejercicio8.java;
 

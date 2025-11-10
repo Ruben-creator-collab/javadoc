@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que el usuario piensa un numero del 1 al 100 y el ordenador adivina
+ * Autor: Rubén Rivas
+ * Fecha: 20/10/25
+ */
 package ejercicio13.java;
 
 import java.util.Scanner;

@@ -1,5 +1,5 @@
 /*
- * Descripción: 
+ * Descripción: Crea un array de tamaño 100 con valores aleatorios entre 1 y 10 y dice en que posicion esta
  * Autor: Rubén Rivas Flores
  * Fecha: 23/10/25
  */

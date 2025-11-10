@@ -1,5 +1,5 @@
 /*
- * Descripción: 
+ * Descripción: Pide 10 numeros por teclado los almacena y dice el maximo y minimo
  * Autor: Rubén Rivas Flores
  * Fecha: 23/10/25
  */

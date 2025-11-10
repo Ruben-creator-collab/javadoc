@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que haga el factorial de N
+ * Autor: Rubén Rivas
+ * Fecha: 20/10/25
+ */
 package ejercicio5.java;
 
 import java.util.Scanner;

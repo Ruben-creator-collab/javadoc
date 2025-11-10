@@ -1,7 +1,7 @@
 /*
  * Descripción: programa que multiplica y suma los 10 primeros numeros naturales
  * Autor: Rubén Rivas
- * Fecha: 27/10/25
+ * Fecha: 20/10/25
  */
 package ejercicio9.java;
 

@@ -1,3 +1,8 @@
+/*
+ * Descripción: Ejercicio en java que muestra desde el numero 1 hasta N
+ * Autor: Rubén Rivas
+ * Fecha: 20/10/25
+ */
 package ejercicio4.java;
 
 import java.util.Scanner;

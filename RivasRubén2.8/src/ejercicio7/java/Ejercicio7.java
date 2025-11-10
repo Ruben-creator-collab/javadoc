@@ -1,3 +1,8 @@
+/*
+ * Descripción: Programa de java el cual hace un juego para adivinar un numero
+ * Autor: Rubén Rivas
+ * Fecha: 16/10/25
+ */
 package ejercicio7.java;
 
 import java.util.Random;
