@@ -29,5 +29,4 @@ public class Ejercicio19 {
 		}
 		return false;
 	}
-
 }
