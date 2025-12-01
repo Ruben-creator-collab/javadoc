@@ -1,15 +1,21 @@
-# Repositorio de Programación en Java 🖥️
+# 🚀 Repositorio de Programación en Java  
 
-Este repositorio contiene todos mis ejercicios y prácticas de **Java**, generados durante mis estudios de Desarrollo de Aplicaciones Web (DAW). Incluye tanto código fuente como la documentación Javadoc de los proyectos.
+Este repositorio contiene mis **ejercicios y prácticas de programación en Java**, realizados durante mis estudios de Desarrollo de Aplicaciones Web (DAW). Cada carpeta incluye diferentes ejercicios resueltos y organizados por temas.
 
-## Contenido
+---
 
-- **Ejercicios de Java:** Carpetas con los diferentes ejercicios resueltos.
-- **Documentación Javadoc:** Generada automáticamente en la carpeta `docs` para cada proyecto.
-- **Archivos adicionales:** README, configuración y recursos necesarios para ejecutar los ejercicios.
+## 📂 Contenido del repositorio
 
-## Cómo usarlo
+### 🧪 Ejercicios de Java  
+Colección de actividades y prácticas divididas en carpetas según la unidad o tipo de ejercicio.
 
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/Ruben-creator-collab/javadoc.git
+### 📁 Archivos adicionales  
+Incluye ficheros de configuración, recursos necesarios y este README.
+
+---
+
+## 🛠️ Cómo usar este repositorio
+
+### 1️⃣ Clonar el repositorio
+```bash
+git clone https://github.com/Ruben-creator-collab/javadoc.git
