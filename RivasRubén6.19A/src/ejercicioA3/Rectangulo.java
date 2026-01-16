@@ -2,9 +2,9 @@ package ejercicioA3;
 
 public class Rectangulo {
 	
-	public float x1;
-	public float y1;
-	public float x2;
-	public float y2;
+	public int x1;
+	public int y1;
+	public int x2;
+	public int y2;
 	
 }
