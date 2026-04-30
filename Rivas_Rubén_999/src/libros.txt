@@ -1,0 +1,12 @@
+978-84-450-0069-4;El Señor de los Anillos;J.R.R. Tolkien;25.50
+978-84-376-0494-7;Don Quijote de la Mancha;Miguel de Cervantes;18.00
+978-84-233-4251-8;Cien años de soledad;Gabriel García Márquez;20.90
+978-84-975-9220-8;1984;George Orwell;12.00
+978-84-450-0069-4;El Señor de los Anillos;J.R.R. Tolkien;25.50
+978-84-206-5232-0;El Principito;Antoine de Saint-Exupéry;10.00
+978-84-376-0494-7;Don Quijote de la Mancha;Miguel de Cervantes;18.00
+978-84-01-35283-6;El resplandor;Stephen King;22.00
+978-84-233-5160-2;La sombra del viento;Carlos Ruiz Zafón;21.50
+978-84-975-9220-8;1984;George Orwell;12.00
+978-84-663-3124-1;Cronica de una muerte anunciada;Gabriel García Márquez;14.25
+978-84-206-9120-6;Alicia en el pais de las maravillas;Lewis Carroll;9.90
